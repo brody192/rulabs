@@ -1,7 +1,7 @@
 {
-  "name": "web",
+  "name": "devnet-directory",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/web/src",
+  "sourceRoot": "apps/devnet-directory/src",
   "projectType": "application",
   "targets": {},
   "tags": []
