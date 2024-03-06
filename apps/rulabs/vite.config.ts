@@ -20,7 +20,7 @@ export default defineConfig({
   plugins: [react(), nxViteTsPaths()],
 
   build: {
-    outDir: '../../dist/apps/rulabs',
+    outDir: './dist',
     reportCompressedSize: true,
     commonjsOptions: {
       transformMixedEsModules: true,

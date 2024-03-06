@@ -8,7 +8,7 @@
     "build:the76devs": "nx build the76devs",
     "start:the76devs": "caddy run --config apps/the76devs/Caddyfile",
     "build:rulabs": "nx build rulabs",
-    "start:rulabs": "http-server ./dist/apps/rulabs"
+    "start:rulabs": "caddy run --config apps/rulabs/Caddyfile"
   },
   "private": true,
   "engines": {
