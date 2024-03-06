@@ -1,0 +1,8 @@
+{
+  "name": "rulabs",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/rulabs/src",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
