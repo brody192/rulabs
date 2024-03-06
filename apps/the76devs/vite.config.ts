@@ -4,6 +4,8 @@ import { defineConfig } from 'vite';
 import css from "./postcss.config.js"
 
 export default defineConfig({
+  root: __dirname,
+  cacheDir: '../../node_modules/.vite/apps/the76devs',
   build: {
     outDir: "../../dist/apps/the76devs",
   },
