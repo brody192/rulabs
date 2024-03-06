@@ -7,7 +7,7 @@ export default defineConfig({
   root: __dirname,
   cacheDir: '../../node_modules/.vite/apps/the76devs',
   build: {
-    outDir: "../../dist/apps/the76devs",
+    outDir: "./dist",
   },
   plugins: [
     svelte(),

@@ -6,7 +6,7 @@
     "build:devnet-directory": "nx build devnet-directory",
     "start:devnet-directory": "http-server ./dist/apps/devnet-directory",
     "build:the76devs": "nx build the76devs",
-    "start:the76devs": "http-server ./dist/apps/the76devs",
+    "start:the76devs": "caddy run --config apps/the76devs/Caddyfile",
     "build:rulabs": "nx build rulabs",
     "start:rulabs": "http-server ./dist/apps/rulabs"
   },
