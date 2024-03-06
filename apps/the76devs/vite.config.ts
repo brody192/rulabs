@@ -4,6 +4,9 @@ import { defineConfig } from 'vite';
 import css from "./postcss.config.js"
 
 export default defineConfig({
+  build: {
+    outDir: "../../dist/apps/the76devs",
+  },
   plugins: [
     svelte(),
   ],
